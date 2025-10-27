@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="me.css">
+</head>
+<body>
+  <header>
+    <div>
+      <a href="#" class="home-icon">🏠</a>
+      <h1>SIDHARTH KUMAR NANDA</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Project Details</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <img src="" alt="">
+    <div>
+      <h2>About Me</h2>
+      <p>Hello! I'm <strong>SIDHARTH</strong>, a passionate web developer who loves designing clean, responsive, and user-friendly websites. I enjoy solving challenges through code and continuously learning modern web technologies.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML Logo">
+        <span>HTML</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS Logo">
+        <span>CSS</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" alt="JS Logo">
+        <span>JavaScript</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React Logo">
+        <span>React</span>
+      </div>
+      <div class="skill">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo">
+        <span>Python</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2>Project Details</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Personal Finance Tracker</h3>
+        <p>A responsive web app for tracking expenses and savings goals using local storage and charts.js for visual analytics.</p>
+      </div>
+      <div class="project">
+        <h3>Weather Dashboard</h3>
+        <p>Fetches real-time weather data using OpenWeatherMap API with a dynamic, modern UI built with JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Recipe Finder</h3>
+        <p>Allows users to search and save recipes. Built using React and integrated with an external API for live data.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMMENDATIONS -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <div id="recommendationList">
+      <div class="recommendation">“John is a highly dedicated developer who consistently delivers excellent results.” — Sarah M.</div>
+      <div class="recommendation">“Creative problem-solver and a great team player.” — Kevin T.</div>
+      <div class="recommendation">“Always eager to learn and improve his craft.” — Lisa R.</div>
+    </div>
+
+    <form id="recForm">
+      <h3>Submit a Recommendation</h3>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <textarea id="message" rows="3" placeholder="Your recommendation..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 John Doe | All Rights Reserved
+  </footer>
+
+<script src="me.js"></script>
+</body>
+</html>
