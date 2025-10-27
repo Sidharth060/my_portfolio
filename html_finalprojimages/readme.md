@@ -1,1 +1,1 @@
-this directory has all h images used in this project
+this directory has all has images used in this project
